@@ -24,6 +24,7 @@ static const char *TAG = "scan";
 
 static void print_auth_mode(int authmode)
 {
+    //test
     switch (authmode) {
     case WIFI_AUTH_OPEN:
         ESP_LOGI(TAG, "Authmode \tWIFI_AUTH_OPEN");
